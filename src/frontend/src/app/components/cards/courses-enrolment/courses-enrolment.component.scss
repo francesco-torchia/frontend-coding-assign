@@ -1,0 +1,53 @@
+.mat-column-title {
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.mat-column-teacher {
+  &.mat-header-cell {
+    padding-left: 15px;
+    font-size: 20px;
+  }
+  &.mat-cell {
+    padding-left: 20px;
+    font-style: italic;
+  }
+}
+
+.mat-column-mark {
+  &.mat-header-cell {
+    padding-left: 15px;
+    font-size: 20px;
+  }
+  &.mat-cell {
+    padding-left: 15px;
+    width: 32px;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+.mat-column-isAvailable {
+  &.mat-cell {
+    padding-left: 15px;
+    width: 32px;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+.mat-column-enrol {
+  padding-left: 25px;
+}
+
+.mat-icon-pass {
+  color: #0cbd0f;
+}
+
+.mat-icon-fail {
+  color: #ea0e2f;
+}
+
+.enabled {
+  color: #0cbd0f;
+}

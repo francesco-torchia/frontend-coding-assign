@@ -1,0 +1,64 @@
+{
+  "GITHUB": "GitHub",
+  "LOGIN": "Accedi",
+  "LOGOUT": "Esci",
+  "USER": "Utente",
+  "WELCOME": "Ciao",
+  "MENU_PROFILE": "Profilo",
+
+  "LIKE": "Mi Piace",
+  "SHARE": "Condividi",
+
+  "DETAILS": "Modifica",
+  "COURSES": "Corsi",
+  "CAREER": "Libretto",
+  "EDIT COURSE": "Gestisci Corso",
+  "COURSE_LIST": "Lista dei corsi",
+
+  "COLUMN_TITLE": "Nome",
+  "COLUMN_TEACHER": "Docente",
+  "COLUMN_IS_AVAILABLE": "Status",
+  "COLUMN_MARK": "Risultato",
+  "COLUMN_NAME": "Nome",
+
+  "EDIT_TABLE_ROW": "Modifica",
+  "DELETE_TABLE_ROW": "Cancella",
+
+  "NAME": "Nome",
+  "AVAILABLE": "Abilitato",
+  "ACTIVE": "Abilita",
+
+  "SAVE": "Salva",
+  "REJECT": "No",
+  "CONFIRM": "Si",
+
+  "EXAMS": "Esami",
+  "EXAMS_PASS": "P",
+  "EXAMS_FAIL": "B",
+  "EXAM_TODO": "Iscritto",
+  "EXAM_RESULT": "Gestisci Studenti",
+  "COURSE_ENROL": "Iscriviti",
+  "COURSE_LEAVE": "Lascia il Corso",
+  "IS_AVAILABLE": "Corso Attivo",
+  "IS_NOT_AVAILABLE": "Corso Disattivo",
+  "COURSE_MANAGE": "Modifica Corso",
+  "NO_STUDENTS": "Nessuno Studente",
+
+  "ENROL_COURSE_CONFIRM_MSG": "Vuoi entrare nel Corso?",
+  "LEAVE_COURSE_CONFIRM_MSG": "Vuoi lasciare il Corso?",
+
+  "ERROR_LOGIN_INVALID": "Username o Password errati",
+  "ERROR_LOGIN_CONN": "Errore di connessione",
+  "ERROR_LOGIN_MISSING_USER": "Username non valido",
+  "ERROR_LOGIN_MISSING_PASS": "Password non valida",
+
+  "STUDENT_CARD": "Card Studente",
+  "ADMIN_CARD": "Card Admin",
+  "TEACHER_CARD": "Card Docente",
+  "ROLE": "Ruolo",
+
+  "COURSES_EMPTY": "Non hai nessun Corso assegnato",
+  "COURSES_ADMIN_EMPTY": "Non ci sono corsi",
+  "COURSES_STUDENT_EMPTY": "Non ci sono corsi"
+
+}

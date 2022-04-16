@@ -1,0 +1,64 @@
+{
+  "GITHUB": "GitHub",
+  "LOGIN": "Login",
+  "LOGOUT": "Logout",
+  "USER": "User",
+  "WELCOME": "Welcome",
+  "MENU_PROFILE": "Profile",
+
+  "LIKE": "LIKE",
+  "SHARE": "SHARE",
+
+  "DETAILS": "Manage",
+  "COURSES": "Courses",
+  "CAREER": "Career",
+  "EDIT COURSE": "Edit Course",
+  "COURSE_LIST": "List of courses",
+
+  "COLUMN_TITLE": "Title",
+  "COLUMN_TEACHER": "Teacher",
+  "COLUMN_IS_AVAILABLE": "Status",
+  "COLUMN_MARK": "Result",
+  "COLUMN_NAME": "Name",
+
+  "EDIT_TABLE_ROW": "Manage",
+  "DELETE_TABLE_ROW": "Delete",
+
+  "NAME": "Name",
+  "AVAILABLE": "Available",
+  "ACTIVE": "Active",
+
+  "SAVE": "Save",
+  "REJECT": "No",
+  "CONFIRM": "Yes",
+
+  "EXAMS": "Exams",
+  "EXAMS_PASS": "Passed",
+  "EXAMS_FAIL": "Failed",
+  "EXAM_TODO": "Enroled",
+  "EXAM_RESULT": "Manage Students",
+  "COURSE_ENROL": "Enrol Course",
+  "COURSE_LEAVE": "Leave Course",
+  "IS_AVAILABLE": "Course Available",
+  "IS_NOT_AVAILABLE": "Course Unavailable",
+  "COURSE_MANAGE": "Manage Course",
+  "NO_STUDENTS": "No Students",
+
+  "ENROL_COURSE_CONFIRM_MSG": "Do you want to Enrol?",
+  "LEAVE_COURSE_CONFIRM_MSG": "Do you want to Leave?",
+
+  "ERROR_LOGIN_INVALID": "Invalid Username or Password",
+  "ERROR_LOGIN_CONN": "Connection Error",
+  "ERROR_LOGIN_MISSING_USER": "Please provide a valid username",
+  "ERROR_LOGIN_MISSING_PASS": "Please provide a valid password",
+
+  "STUDENT_CARD": "Student Card",
+  "ADMIN_CARD": "Admin Card",
+  "TEACHER_CARD": "Teacher Card",
+  "ROLE": "Role",
+
+  "COURSES_EMPTY": "You don't have assigned Courses",
+  "COURSES_ADMIN_EMPTY": "There are no Courses",
+  "COURSES_STUDENT_EMPTY": "There are no Courses"
+
+}

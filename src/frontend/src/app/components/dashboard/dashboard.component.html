@@ -1,0 +1,5 @@
+<div [ngSwitch]="authService.loggedUser?.role" class="dashboard-container">
+  <app-student *ngSwitchCase="'Student'"></app-student>
+  <app-teacher *ngSwitchCase="'Teacher'"></app-teacher>
+  <app-admin   *ngSwitchCase="'Admin'"></app-admin>
+</div>

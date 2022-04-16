@@ -1,0 +1,32 @@
+<div fxLayout="column">
+  <div fxLayout="row" fxLayoutAlign="end none">
+    <button class="btn-close" mat-button mat-dialog-close>X</button>
+  </div>
+  <div fxLayout="row" fxLayoutAlign="center none">
+    <h1 mat-dialog-title>{{data.course.title}}</h1>
+  </div>
+  <form #courseForm="ngForm" (ngSubmit)="save()">
+    <div fxLayout="row" fxLayoutAlign="center none" class="course-form">
+      <div fxLayout="column" fxLayoutAlign="space-around center">
+        <p>
+          <mat-slide-toggle [(ngModel)]="data.course.isAvailable" name="isAvailable">{{'ACTIVE' | translate}}</mat-slide-toggle>
+        </p>
+        <p>
+          <mat-form-field appearance="legacy">
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-label>>{{'COLUMN_TEACHER' | translate}}</mat-label>
+            <mat-select [(ngModel)]="data.course.teacherId" name="teacherId">
+              <mat-option></mat-option>
+              <mat-option *ngFor="let teacher of data.teachers" [value]="teacher.id">{{teacher.name}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </p>
+        <p>
+          <button mat-raised-button color="primary" [mat-dialog-close]="data.course">
+            <ng-container>{{'SAVE' | translate}}</ng-container>
+          </button>
+        </p>
+      </div>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,41 @@
+.courses-table {
+  width: 100%;
+}
+
+.mat-column-title {
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.mat-column-teacher {
+  &.mat-header-cell {
+    padding-left: 15px;
+    font-size: 20px;
+  }
+  &.mat-cell {
+    padding-left: 15px;
+    font-style: italic;
+  }
+}
+
+.mat-column-isAvailable {
+  &.mat-header-cell {
+    padding-left: 6px;
+    font-size: 20px;
+  }
+  &.mat-cell {
+    padding-left: 6px;
+    width: 32px;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+.mat-column-edit {
+  padding-left: 20px;
+}
+
+.enabled {
+  color: #0cbd0f;
+}
+
